@@ -1,0 +1,24 @@
+.hidden-from-view {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.u-text-center {
+    text-align: center;
+}
+.u-text-status--familiar {
+    color: #6EEBE9;
+}
+.u-block-center {
+    display: block;
+    margin: 0 auto;
+}
+.u-max-width-640 {
+    max-width: 640px;
+}

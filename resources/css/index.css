@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #f3f3f3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    background-color: #0B132B;
+    min-height: 87vh;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+/*== CSS Imports ==*/
+@import url('./base.css');
+@import url('./nav-bar.css');
+@import url('./table.css');
+@import url('./form.css');
+@import url('./modal.css');
+@import url('./common.css');
+@import url('./util.css');

@@ -1,0 +1,59 @@
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    margin-bottom: 80px;
+    font-size: 14px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+}
+
+.employee-table thead tr {
+    color: #0B132B;
+    background-color: #FFF;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.employee-table thead th {
+    padding: 16px 8px;
+    font-size: 16px;
+    border-left: 1px solid #0B132B;
+    border-top: 1px solid #FFF;
+}
+.employee-table thead th:first-of-type {
+    border-left: 1px solid #FFF;
+}
+
+/* .employee-table tbody tr:nth-of-type(odd) {
+    background-color: #1C2541;
+} */
+
+.employee-table tbody tr:nth-of-type(even) {
+    background-color: #1C2541;
+}
+
+.employee-table tbody tr:last-of-type {
+    border-bottom: px solid #FFF;
+}
+
+.employee-table tbody td {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+    border: 1px solid #FFF;
+}
+
+.employee-table .employee-table__link {
+    cursor: pointer;
+    color: #6EEBE9;
+}
+.employee-table .employee-table__link:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.employee-table .employee-table__actions {
+    width: 140px;
+}

@@ -1,3 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+@import "base.css";
+@import "common.css";
+@import "form.css";
+@import "index.css";
+@import "modal.css";
+@import "nav-bar.css";
+@import "table.css";
+@import "util.css";

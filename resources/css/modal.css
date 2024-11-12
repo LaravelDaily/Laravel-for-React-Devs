@@ -1,0 +1,44 @@
+/*  Most of this CSS is taken from elsewhere to save time.  */
+.employee-modal-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 200ms;
+}
+.employee-modal-overlay .modal-outside-close {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+.employee-modal-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.employee-modal {
+    margin: 100px auto;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #666;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.employee-modal .content {
+    max-height: 400px;
+    overflow: auto;
+}
+.employee-modal p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+.employee-modal__close {
+    position: absolute;
+    width: 46px;
+    right: 12px;
+    top: 8px;
+}
